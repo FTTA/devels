@@ -36,6 +36,11 @@ $lUserAvatar = empty($user_data['avatar']) ? '/assets/img/noavatar.png' :
         <?php echo DifferentFunc::translation('user_email'); ?>:</div>
     <div class="col-md-9"><?php echo $user_data['email']; ?></div>
 </div>
+<div class="row">
+    <div class="col-md-3">
+        <?php echo DifferentFunc::translation('registration_date'); ?>:</div>
+    <div class="col-md-9"><?php echo date('Y-m-d', $user_data['created_at']); ?></div>
+</div>
 <?php
 if ($owner_mode) {
 ?>

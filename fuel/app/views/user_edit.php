@@ -98,7 +98,8 @@
         }
         else {
         ?>
-            <input class="btn btn-warning" type="button" value="Restore profile"
+            <input class="btn btn-warning" type="button"
+                value="<?php echo DifferentFunc::translation('restore_profile'); ?>"
                 data-user-name="<?php echo $user_data['username']; ?>" id="user_restore">
         <?php
         }

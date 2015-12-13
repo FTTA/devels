@@ -36,6 +36,9 @@ $(document).ready(function() {
     });
 
     $('#user_delete').click(function() {
+        if (!confirm(page.get_i18n('confirm_msg_2')))
+            return;
+
         var lParams = {
             button: $(this),
             data:   {user_id: $(this).data('user-id')},
@@ -50,9 +53,6 @@ $(document).ready(function() {
 
     $('#user_restore').click(function() {
 
-        if (!confirm(page.get_i18n('confirm_msg_1')))
-            return;
-
         var lParams = {
             button: $(this),
             data:   {user_name: $(this).data('user-name')},
@@ -66,7 +66,7 @@ $(document).ready(function() {
     });
 
     $('#change_password').click(function() {
-        if (!confirm(page.get_i18n('confirm_msg_2')))
+        if (!confirm(page.get_i18n('confirm_msg_1')))
             return;
 
         if ($('#new_password').val() != $('#new_password_2').val())
