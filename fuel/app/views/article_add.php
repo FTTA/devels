@@ -48,7 +48,7 @@ if(empty($edit_mode)
 <?php
     if ($edit_mode)
     {
-        $lText = 'Edit article';
+        $lText = 'edit_article';
         $lId   = 'article_edit';
 ?>
     <input type="hidden" class="form_field validate"
@@ -60,16 +60,18 @@ if(empty($edit_mode)
     }
     else
     {
-        $lText = 'Add article';
+        $lText = 'add_article';
         $lId   = 'article_add';
     }
 ?>
-    <input type="button" value="<?php echo $lText;?>" id="<?php echo $lId;?>">
+    <input type="button" id="<?php echo $lId;?>"
+        value="<?php echo DifferentFunc::translation($lText); ?>">
 <?php
     if ($edit_mode)
     {
 ?>
-    <input type="button" value="Delete article" id="article_delete">
+    <input type="button" id="article_delete"
+        value="<?php echo DifferentFunc::translation('delete_article'); ?>">
 <?php
     }
 ?>
