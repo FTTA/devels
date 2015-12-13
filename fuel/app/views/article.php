@@ -18,7 +18,11 @@ if (empty($article)
 <?php echo $article['text']; ?>
 </div>
 <div class="row">
-    <div class="col-md-2"><?php echo $article['user_name']; ?></div>
+    <div class="col-md-2">
+        <a href="/profile/index?user_id=<?php echo $article['user_id']; ?>">
+            <?php echo $article['user_name']; ?>
+        </a>
+    </div>
     <div class="col-md-8"></div>
     <div class="col-md-2"><?php echo $article['date']; ?></div>
 </div>

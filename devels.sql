@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1:3306
--- Час створення: Гру 13 2015 р., 21:14
+-- Час створення: Гру 14 2015 р., 02:05
 -- Версія сервера: 5.5.35-log
 -- Версія PHP: 5.4.22
 
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `articles` (
   `date` date NOT NULL,
   `is_deleted` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- Дамп даних таблиці `articles`
@@ -56,7 +56,8 @@ INSERT INTO `articles` (`id`, `user_id`, `name_en`, `text_en`, `name_ua`, `text_
 (10, 1, 'Test article 3', 'Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. Test article 3. ', 'Тестова стаття 3', 'Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. Просто текст 3. ', '2015-12-12', 0),
 (11, 1, 'Test article 4', 'Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. Test article 4. ', 'Тестова стаття 4', 'Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. Тестова стаття 4. ', '2015-12-12', 0),
 (12, 1, 'Test article 5', 'Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. Test article 5. ', 'Тестова стаття 5', 'Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. Просто текст 5. ', '2015-12-12', 0),
-(13, 7, 'test', 'ertrtr', 'Тест', 'Тест', '2015-12-13', 1);
+(13, 7, 'test', 'ertrtr', 'Тест', 'Тест', '2015-12-13', 1),
+(14, 7, 'sdfsdsd', 'sdfsdsdf', 'івппа', 'апрпар', '2015-12-14', 0);
 
 -- --------------------------------------------------------
 
@@ -102,6 +103,31 @@ INSERT INTO `migration` (`type`, `name`, `migration`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Структура таблиці `sessions`
+--
+
+CREATE TABLE IF NOT EXISTS `sessions` (
+  `session_id` varchar(40) NOT NULL,
+  `previous_id` varchar(40) NOT NULL,
+  `user_agent` text NOT NULL,
+  `ip_hash` char(32) NOT NULL,
+  `created` int(10) unsigned NOT NULL,
+  `updated` int(10) unsigned NOT NULL,
+  `payload` longtext NOT NULL,
+  PRIMARY KEY (`session_id`),
+  UNIQUE KEY `previous_id` (`previous_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп даних таблиці `sessions`
+--
+
+INSERT INTO `sessions` (`session_id`, `previous_id`, `user_agent`, `ip_hash`, `created`, `updated`, `payload`) VALUES
+('daf2d9c356b2c705dc57ee6e23b2b238', 'ad0932fe5a51b7c4984dc962c4771ef7', 'Mozilla/5.0 (Windows NT 5.1; rv:42.0) Gecko/20100101 Firefox/42.0', '4869e012aa045958bdf5c461577cf02d', 1450044283, 1450044315, 'a:3:{i:0;a:7:{s:10:"session_id";s:32:"daf2d9c356b2c705dc57ee6e23b2b238";s:11:"previous_id";s:32:"ad0932fe5a51b7c4984dc962c4771ef7";s:7:"ip_hash";s:32:"4869e012aa045958bdf5c461577cf02d";s:10:"user_agent";s:65:"Mozilla/5.0 (Windows NT 5.1; rv:42.0) Gecko/20100101 Firefox/42.0";s:7:"created";i:1450044283;s:7:"updated";i:1450044315;s:7:"payload";s:0:"";}i:1;a:2:{s:11:"translation";a:46:{s:9:"main_page";s:14:"Головна";s:9:"read_more";s:21:"Читати далі";s:11:"add_article";s:25:"Додати статтю";s:10:"users_list";s:37:"Список користувачів";s:6:"logout";s:10:"Вийти";s:4:"edit";s:20:"Редагувати";s:8:"username";s:33:"Логін користувача";s:10:"first_name";s:7:"Ім''я";s:12:"user_profile";s:37:"Профіль користувача";s:9:"last_name";s:16:"Прізвище";s:10:"user_email";s:5:"Email";s:12:"edit_profile";s:35:"Редагувати профіль";s:7:"deleted";s:18:"Видалений";s:7:"blocked";s:24:"Заблокований";s:6:"action";s:6:"Дія";s:4:"role";s:8:"Роль";s:4:"show";s:16:"Показати";s:9:"ur_editor";s:16:"Редактор";s:8:"ur_admin";s:26:"Адміністратор";s:7:"ur_user";s:20:"Користувач";s:3:"yes";s:6:"Так";s:2:"no";s:4:"Ні";s:5:"block";s:22:"Заблокувати";s:10:"add_avatar";s:25:"Додати аватар";s:11:"change_data";s:23:"Змінити дані";s:15:"change_password";s:27:"Змінити пароль";s:7:"sign_in";s:12:"Увійти";s:12:"registration";s:20:"Реєстрація";s:8:"password";s:12:"Пароль";s:6:"submit";s:22:"Підтвердити";s:15:"repeat_password";s:31:"Повторити пароль";s:12:"new_password";s:23:"Новий пароль";s:19:"repeat_new_password";s:42:"Повторити новий пароль";s:14:"delete_profile";s:31:"Видалити профіль";s:16:"successful_msg_1";s:63:"Дані користувача успішно оновлені";s:9:"succesful";s:14:"Успішно";s:13:"confirm_msg_1";s:59:"Ви дійсно хочете змінити пароль?";s:11:"alert_msg_1";s:101:"Введені не всі дані. Перевірте, будь ласка, введені дані";s:18:"passwords_mismatch";s:40:"Паролі не співпадають";s:13:"confirm_msg_2";s:63:"Ви дійсно хочете видалити профіль?";s:13:"access_denied";s:41:"Немає прав для доступу";s:11:"error_msg_1";s:55:"Неправильний логін або пароль";s:16:"successful_msg_2";s:50:"Реєстрація пройшла успішно";s:16:"successful_msg_3";s:59:"Пароль користувача було змінено";s:17:"registration_date";s:29:"Дата реєстрації";s:15:"restore_profile";s:33:"Відновити профіль";}s:8:"language";s:2:"ua";}i:2;a:1:{s:29:"flash::__session_identifier__";a:2:{s:5:"state";s:6:"expire";s:5:"value";s:40:"f3b24612b82e64efd7208ac01684543a94501ed0";}}}');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблиці `translations`
 --
 
@@ -112,7 +138,7 @@ CREATE TABLE IF NOT EXISTS `translations` (
   `text_ua` text NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `sys_name` (`sys_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=46 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=48 ;
 
 --
 -- Дамп даних таблиці `translations`
@@ -162,7 +188,9 @@ INSERT INTO `translations` (`id`, `sys_name`, `text_en`, `text_ua`) VALUES
 (41, 'access_denied', 'Access denied', 'Немає прав для доступу'),
 (42, 'error_msg_1', 'Invalid password or login', 'Неправильний логін або пароль'),
 (43, 'successful_msg_2', 'Registrtion successful', 'Реєстрація пройшла успішно'),
-(45, 'successful_msg_3', 'User password was updated successful', 'Пароль користувача було змінено');
+(45, 'successful_msg_3', 'User password was updated successful', 'Пароль користувача було змінено'),
+(46, 'registration_date', 'Registration date', 'Дата реєстрації'),
+(47, 'restore_profile', 'Restore profile', 'Відновити профіль');
 
 -- --------------------------------------------------------
 
@@ -182,23 +210,25 @@ CREATE TABLE IF NOT EXISTS `users` (
   `created_at` int(11) DEFAULT NULL,
   `updated_at` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
 
 --
 -- Дамп даних таблиці `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `group`, `email`, `last_login`, `login_hash`, `profile_fields`, `created_at`, `updated_at`) VALUES
-(1, 'test', 'Y1TI2XO0KIrwSXvLgmDsbvuv6OFvnjfDi2uz+Smjbkw=', 1, 'test@ukr.net', '1450018458', 'c360a89dc32316a7551c42a1bfa27ccd41c4330b', 'a:5:{s:10:"first_name";s:5:"Sarah";s:9:"last_name";s:6:"Carter";s:9:"avatar_id";s:2:"18";s:7:"role_id";s:1:"1";s:10:"is_deleted";b:0;}', 1450001728, 1450022250),
-(2, 'test2', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'test2@ukr.net', '1450017760', 'aee18427594145f65b38c27512c1badc32087c5c', 'a:5:{s:7:"role_id";s:1:"3";s:10:"first_name";s:4:"name";s:10:"is_blocked";s:1:"0";s:10:"is_deleted";b:0;s:9:"last_name";s:6:"Sename";}', 1450005732, 1450017912),
-(3, 'admin', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'asd@rt.jk', '1450022189', 'a3f8d637023fa5358f4bfd53214339cf5791784c', 'a:2:{s:7:"role_id";i:1;s:10:"is_deleted";b:1;}', 1450006631, 1450022281),
-(4, 'admin2', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'erw@rt.rt', '1450008244', 'eff8d9ace01757b0499496645a4724c290e84183', 'a:1:{s:7:"role_id";i:1;}', 1450007738, NULL),
+(1, 'test', 'kxMPEdmYS0N1DqV7KBUe+VoyBvRtJ2fOMJhFuOyLl9A=', 1, 'test__@ukr.net', '1450044055', 'b3b7deace61245f709ebb3d86269ff6ddd30c7b8', 'a:5:{s:10:"first_name";s:5:"Sarah";s:9:"last_name";s:6:"Carter";s:9:"avatar_id";s:2:"18";s:7:"role_id";s:1:"1";s:10:"is_deleted";b:0;}', 1450001728, 1450040403),
+(2, 'test2', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'test2@ukr.net', '1450040010', '47a6aeb0dbf0c7bce54c5fdbf060a7efdad37c78', 'a:5:{s:7:"role_id";s:1:"3";s:10:"first_name";s:4:"name";s:10:"is_blocked";s:1:"0";s:10:"is_deleted";b:1;s:9:"last_name";s:6:"Sename";}', 1450005732, 1450040019),
+(3, 'admin', 'Y1TI2XO0KIrwSXvLgmDsbvuv6OFvnjfDi2uz+Smjbkw=', 1, 'asd@rt.jk', '1450043875', '3d38522915368a2aa721f601c5ad5218f4a47cf3', 'a:2:{s:7:"role_id";i:1;s:10:"is_deleted";b:0;}', 1450006631, 1450040368),
+(4, 'admin2', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'erw@rt.rt', '1450040682', '4e17c1364e81c1ea6546816cb695847a558a231f', 'a:1:{s:7:"role_id";i:1;}', 1450007738, NULL),
 (5, 'user', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'user@ukr.net', '1450009025', 'd2bde3df7cb195fbb9318ca6420275d689d56069', 'a:2:{s:7:"role_id";s:1:"3";s:10:"is_blocked";s:1:"1";}', 1450008838, 1450012250),
 (6, 'user_2', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'tes2t@ukr.net', '1450013619', 'c69926f39c699cacb36e196f178563253ff6f4a9', 'a:2:{s:7:"role_id";i:3;s:10:"is_deleted";b:1;}', 1450010520, 1450014249),
-(7, 'editor', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'editor@com.ua', '1450017934', '993c3119d8c2d0db0e337b6f049b44562986da2b', 'a:3:{s:7:"role_id";s:1:"2";s:10:"is_blocked";s:1:"0";s:9:"avatar_id";s:2:"19";}', 1450013445, 1450018440),
+(7, 'editor', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'editor@com.ua', '1450044283', '5b2b759d6a78db6466c98ea3671ec5391a6c65bc', 'a:4:{s:7:"role_id";s:1:"2";s:10:"is_blocked";s:1:"0";s:9:"avatar_id";s:2:"19";s:10:"is_deleted";b:0;}', 1450013445, 1450040043),
 (8, 'rwe', 'Y1TI2XO0KIrwSXvLgmDsbvuv6OFvnjfDi2uz+Smjbkw=', 1, 'qwe@tg.lk', '1450025534', 'ba23a1442862949bc9752501dee4dfb9427c17da', 'a:1:{s:7:"role_id";i:3;}', 1450025534, NULL),
 (9, 'ertrtr', 'Y1TI2XO0KIrwSXvLgmDsbvuv6OFvnjfDi2uz+Smjbkw=', 1, 'qwert@gt.zx', '1450025696', '169bb3ef7971e1fda3d76fad931b7577694320eb', 'a:1:{s:7:"role_id";i:3;}', 1450025696, NULL),
-(10, 'hgjjgh', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'zxv@gt.df', '1450025742', 'a89cda377c0f8347145b4935caba8ed2b0d4bdfd', 'a:1:{s:7:"role_id";i:3;}', 1450025742, 1450025967);
+(10, 'hgjjgh', '3YjiZs3ORsTESb3OZCNE3m/agFAPYhWvfEESEI85GFg=', 1, 'zxv@gt.df', '1450025742', 'a89cda377c0f8347145b4935caba8ed2b0d4bdfd', 'a:1:{s:7:"role_id";i:3;}', 1450025742, 1450025967),
+(11, 'tttt', 'Y1TI2XO0KIrwSXvLgmDsbvuv6OFvnjfDi2uz+Smjbkw=', 1, 'ttttert@ukr.net', '1450041184', 'a2ea319d287bbdcfc7dcf80d91c21b34ef920128', 'a:1:{s:7:"role_id";i:3;}', 1450041184, NULL),
+(12, 'vinni', 'onahcRkyBRnM8sdHz9FCr3o5hD4j3KiJ+6q+Vu1iqU0=', 1, 'erewr@yh.jh', '1450044078', '11d174ea2072ae3b352b1e80077eda607fd82176', 'a:1:{s:7:"role_id";i:3;}', 1450044078, NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
